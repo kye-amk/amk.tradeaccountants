@@ -1,0 +1,28 @@
+/* Shared heading row: supporting copy starts beside the h2, below its eyebrow. */
+@media(min-width:801px){
+ .why-intro-grid,.mot-grid,.impact-heading,.faq-grid{display:grid;align-items:start;row-gap:14px}
+ .why-intro-grid>div:first-child,.mot-grid>div:first-child,.impact-heading>div:first-child,.faq-grid>div:first-child{display:contents}
+ .why-intro-grid>div:first-child>.eyebrow,.mot-grid>div:first-child>.eyebrow,.impact-heading>div:first-child>.eyebrow,.faq-grid>div:first-child>.eyebrow{grid-column:1;grid-row:1;margin:0}
+ .why-intro-grid h2,.mot-grid h2,.impact-heading h2,.faq-grid h2{grid-column:1;grid-row:2;margin:0}
+ .why-intro-grid>p,.mot-content,.impact-intro,.faq-grid>.faq{grid-column:2;grid-row:2;align-self:start;margin-top:0}
+ .mot-grid>.mot-content{grid-row:2 / span 2}.mot-grid .mot-promise{grid-column:1;grid-row:3;margin:0}
+ .faq-grid>.faq{border-top:0}.faq>details:first-child>summary{padding-top:0}
+ #getting-started>.wrap{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);row-gap:14px;align-items:start}
+ #getting-started .section-heading,#getting-started .section-heading>div{display:contents}
+ #getting-started .section-heading .eyebrow{grid-column:1;grid-row:1;margin:0}
+ #getting-started .section-heading h2{grid-column:1;grid-row:2;margin:0}
+ #getting-started .section-heading>p{grid-column:1;grid-row:3;margin:0}
+ #getting-started .start-steps{grid-column:2;grid-row:2 / span 2;margin-top:0}
+ #getting-started .records-note{grid-column:1 / -1;grid-row:4;margin-top:18px}
+}
+@media(max-width:800px){
+ .why-intro-grid,.mot-grid,.impact-heading,.faq-grid{row-gap:22px}
+ .mot-grid h2,.faq-grid h2{margin-bottom:16px}
+ #getting-started .section-heading h2{margin-bottom:18px}
+}
+@media(min-width:801px){
+ #expertise.why-intro>.wrap{row-gap:14px}
+ .mot-grid{grid-template-rows:auto min-content 1fr}
+ #getting-started>.wrap{grid-template-rows:auto min-content 1fr auto}
+}
+@media(max-width:800px){#expertise.why-intro>.wrap{row-gap:22px}}

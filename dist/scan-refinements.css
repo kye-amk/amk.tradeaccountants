@@ -1,0 +1,16 @@
+/* Key decisions first; supporting responsibilities stay available on demand. */
+.impact-action .action-short{font-weight:600;color:#242424;line-height:1.6;margin-bottom:12px}
+.example-detail summary{font-size:12px;font-weight:600;color:#365e08;cursor:pointer;text-decoration:underline;text-underline-offset:4px}
+.example-detail[open] summary{margin-bottom:12px}.example-detail p{font-size:13px}
+.package-priorities{margin:0 0 12px;font-size:14px}
+.package-priorities>div{border-top:1px solid var(--line);padding:14px 0}
+.package-priorities dt{font-size:12px;font-weight:700;margin:0 0 5px}
+.package-priorities dd{margin:0;color:#595959;line-height:1.65}
+.plan.featured .package-priorities>div{border-color:#c5ceba}
+.package-allowances{font-size:13px;margin:16px 0}
+.package-allowances>div{display:grid;grid-template-columns:65px 1fr;gap:12px;padding:8px 0;border-bottom:1px solid var(--line)}
+.package-allowances dt{font-weight:600}.package-allowances dd{margin:0;color:#595959}
+@media(min-width:1051px){.pricing .plan{grid-row:span 9}.plan .package-priorities{display:grid;grid-row:span 3;grid-template-rows:subgrid}.plan .package-priorities>div{margin:0}.plan details{margin-top:0}}
+@media(max-width:700px){.impact-row{gap:16px}.impact-action{padding-left:16px}.package-priorities>div{padding:13px 0}}
+.plan .plan-audience{font-size:12px;font-weight:600;color:#365e08;margin:0 0 12px;line-height:1.5}
+@media(min-width:1051px){.pricing .plan{grid-row:span 12}.plan .package-priorities{grid-row:span 5}}
