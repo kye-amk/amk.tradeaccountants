@@ -37,4 +37,8 @@ The temporary site deliberately remains noindex. Its robots.txt allows crawlers 
 5. Check the live HTTP headers, canonical URLs and robots directives. Verify Google Search Console and Bing Webmaster Tools using the real account-issued verification records, then submit the sitemap.
 6. Redirect the temporary Vercel hostname to the permanent domain, and handle any old-domain page redirects if replacing an existing site.
 
-No service area, opening hours, social profiles or verification identifiers have been invented. Add them only after confirmation and keep structured data consistent with visible content. Genuine reviews and approved client case studies remain useful follow-up work. Search ranking and AI citations cannot be guaranteed by metadata.
+UK-wide coverage is confirmed. Opening hours, social profiles and verification identifiers still require confirmation. Add them only after confirmation and keep structured data consistent with visible content. Genuine reviews and approved client case studies remain useful follow-up work. Search ranking and AI citations cannot be guaranteed by metadata.
+
+## Confirmed service area and future domain
+
+AMK serves clients across the United Kingdom. The future domain is https://amkaccountancy.co.uk, recorded in futureSiteUrl for reference only. It is not connected or activated by this configuration. Keep siteUrl on the Vercel origin and indexing disabled until the owner explicitly authorises the domain switch. Do not change DNS, redirects or live canonical URLs to the future domain before that approval.
