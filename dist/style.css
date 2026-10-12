@@ -140,3 +140,5 @@ header{background:#0b0b0d;border-bottom-color:#303032}.nav-links.open{background
 
 /* Distinguish ongoing quarterly reviews from the first-month MOT. */
 #reviews.review{background:#fff}#reviews .agenda>div{border-color:#dad6cc}
+
+.footer-contact .footer-phone{display:block;margin:10px 0 16px;font-size:16px;font-weight:700;color:inherit}
