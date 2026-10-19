@@ -1,7 +1,7 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": null,
-  "buildCommand": "node scripts/build-seo.mjs",
+  "buildCommand": "node scripts/build-seo.mjs && cp dist/index.html dist/preview.html && cp dist/coming-soon.html dist/index.html",
   "outputDirectory": "dist",
   "cleanUrls": true,
   "headers": [
@@ -21,12 +21,6 @@
           "value": "strict-origin-when-cross-origin"
         }
       ]
-    }
-  ],
-  "rewrites": [
-    {
-      "source": "/",
-      "destination": "/coming-soon"
     }
   ]
 }
