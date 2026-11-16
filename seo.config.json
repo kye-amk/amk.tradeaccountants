@@ -1,8 +1,7 @@
 {
-  "siteUrl": "https://amktradeaccountants.vercel.app",
-  "indexable": false,
+  "siteUrl": "https://www.amkaccountancy.co.uk",
+  "indexable": true,
   "phone": "+441367218128",
   "displayPhone": "01367 218128",
-  "futureSiteUrl": "https://amkaccountancy.co.uk",
   "areaServed": "United Kingdom"
 }
